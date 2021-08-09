@@ -5,10 +5,10 @@ This is project 2. Problem Documentaion includes the question this database used
 You can insert, edit or delete stores in the application. Also, for each store, you can add and remove product that the store sells.
 
 To import data, you can use command below:
-mongoimport -h localhost:27017 -d sephoraCol -c store --jsonArray --file store.json 
-mongoimport -h localhost:27017 -d sephoraCol -c product --jsonArray --file MakeUp_product.json
-mongoimport -h localhost:27017 -d sephoraCol -c brand --jsonArray --file Brand.json 
-mongoimport -h localhost:27017 -d sephoraCol -c customer --jsonArray --file customer.json
-mongoimport -h localhost:27017 -d sephoraCol -c invoice --jsonArray --file Invoice(1).json
+To import store collection: mongoimport -h localhost:27017 -d sephoraCol -c store --jsonArray --file store.json 
+To import product collection: mongoimport -h localhost:27017 -d sephoraCol -c product --jsonArray --file MakeUp_product.json
+To import brand collection: mongoimport -h localhost:27017 -d sephoraCol -c brand --jsonArray --file Brand.json 
+To import customer collection: mongoimport -h localhost:27017 -d sephoraCol -c customer --jsonArray --file customer.json
+To import invoice collection: mongoimport -h localhost:27017 -d sephoraCol -c invoice --jsonArray --file Invoice(1).json
 
 Then, you can initialize npm and use npm start to run the program. 
